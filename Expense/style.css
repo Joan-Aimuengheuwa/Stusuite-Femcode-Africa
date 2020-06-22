@@ -55,9 +55,7 @@ img {
     width: 150px;
     height: 60px;
     margin: 20px;
-    margin-bottom: -20px;
-    
-    
+    margin-bottom: -20px;   
 }
 
 .div1 {
@@ -65,16 +63,44 @@ img {
 }
 
 footer {
-    position: absolute;
+    position: fixed;
     bottom: 0;
     width: 100%;
     height: auto;
     color: grey;
     text-align: center;
     padding: 10px;
-    
-
+    margin-top: 20px;
  }
 
+ @media  only screen and (max-width: 768px) {
+    
+    body {
+        margin-left: 10px;
+
+    }
+    body > div#addedExpenses{
+        margin-bottom: 100px;
+    }
+    header {
+        height: 70px;
+    }
+    img {
+        width: 80px;
+        height: 40px;
+        margin-top: 10px;
+        margin-left: 5px;
+    }
+    ul {
+       margin-left: -35px;
+       margin-top: 20px; 
+    }
+    li {
+        margin: 5px;
+        font-size: 14px;
+        margin-left: -2px;
+    }
+    
+    }
 
 

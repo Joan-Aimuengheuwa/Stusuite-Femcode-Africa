@@ -5,12 +5,15 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 	<title>FemCode StuSuite | Helping Students</title>
 	<style>
+		
 		body {
 			background: url("images/stairs.jpg");
 			background-size: cover;
 			background-attachment: fixed;
 			color: white;
 			margin-top: 150px;
+			width: 100%;
+			background-repeat: no-repeat;
 
 		}
 		a {
@@ -60,7 +63,7 @@
 			
 		}
 		footer {
-           position: absolute;
+           position: fixed;
            bottom: 0;
            width: 100%;
            height: auto;
@@ -69,6 +72,18 @@
 		   padding: 10px;
 		   background-color: rgba(0,0,0,0.93);
 
+		}
+
+		@media  only screen and (max-width: 768px) {
+		body > div.div1 {
+			display: block;
+			margin-top: -100px;
+			margin-bottom: 100px;
+			margin-left: auto;
+			margin-right: auto;
+	
+			
+		}
 		}
 		
 	</style>
@@ -80,7 +95,7 @@
 		<h1>FemCode StuSuite</h1></div>
 	<div class="div3"><button><a href="expense/index.html" target="_blank">Expense Calculator</a></button><br>
 	<button><a href="todo/index.html" target="_blank">Your Daily Todo App</a></button><br>
-	<button><a href="book/index.html" target="_blank">Find A Book</a></button></div>
+	<button><a href="book/index.html" target="_blank">Find A Book</a></button></div></div>
 	<footer>&copy Copyright 2020 => Designed by Joan Aimuengheuwa.</footer>
 </body>
 </html>
