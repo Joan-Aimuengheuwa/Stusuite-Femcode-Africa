@@ -29,7 +29,7 @@ input, button {
     font-size: 20px;
     margin-left: 50px;
 }
-li a {
+.li a {
     text-decoration: none;
     color: white;
     
@@ -74,6 +74,9 @@ footer {
 .div1 {
     display: flex;
 }
+#todos {
+    margin-left: 150px;
+}
 
 
 
@@ -83,6 +86,9 @@ footer {
     body {
         margin-left: 10px;
 
+    }
+    #todos {
+        margin-left: 10px;
     }
     
     header {
