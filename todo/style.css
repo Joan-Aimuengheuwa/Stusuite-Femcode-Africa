@@ -18,12 +18,12 @@ input, button {
     color: white;   
     
 }
-ul {
+.ul {
     margin-left: 200px;
     margin-top: 35px;
 }
 
-li {
+.li {
     display: inline;
     margin: 10px;
     font-size: 20px;
@@ -74,10 +74,9 @@ footer {
 .div1 {
     display: flex;
 }
-#todos {
-    display: list-item;
-    
-}
+
+
+
 
 @media  only screen and (max-width: 768px) {
     
@@ -95,11 +94,11 @@ footer {
         margin-top: 10px;
         margin-left: 2px;
     }
-    ul {
+    .ul {
        margin-left: -47px;
        margin-top: 20px; 
     }
-    li {
+    .li {
         margin: 5px;
         font-size: 14px;
         margin-left: -2px;
